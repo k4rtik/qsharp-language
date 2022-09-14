@@ -66,4 +66,4 @@ The statement block is run as long as the condition evaluates to `true`.
 > [!NOTE]
 > Due to the challenge they pose for execution, we discourage the use of loops that break based on a condition and hence do not support `while` loops within operations. The use of `while` loops within operations may be considered in the future, with the restriction that the condition cannot depend on the outcome of a quantum measurement. 
 
-← [Back to Index](https://github.com/microsoft/qsharp-language/tree/main/Specifications/Language#index)
+

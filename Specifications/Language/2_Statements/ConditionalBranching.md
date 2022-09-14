@@ -31,7 +31,7 @@ else {
 }
 ```
 
-You can also express simple branching in the form of a [conditional expression](https://github.com/microsoft/qsharp-language/blob/main/Specifications/Language/3_Expressions/ConditionalExpressions.md#conditional-expressions).
+You can also express simple branching in the form of a [conditional expression](xref:microsoft.quantum.qsharp.conditionalexpressions#conditional-expressions).
 
 ## Target-specific restrictions
 
@@ -40,4 +40,3 @@ The tight integration between control-flow constructs and quantum computations p
 Other quantum processors support specific kinds of branching based on measurement outcomes. The more general `if` statements supported in Q# are compiled into suitable instructions that can be run on such processors. The imposed restrictions are that values of type `Result` may only be compared as part of the condition within `if` statements in operations. Furthermore, the conditionally run blocks cannot contain any return statements or update mutable variables that are declared outside that block. 
 
 
-← [Back to Index](https://github.com/microsoft/qsharp-language/tree/main/Specifications/Language#index)

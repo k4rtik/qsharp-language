@@ -36,7 +36,7 @@ For example,
 fail "Impossible state reached";
 ```
 
-or, using an [interpolated string](https://github.com/microsoft/qsharp-language/blob/main/Specifications/Language/3_Expressions/ValueLiterals.md#string-literals),
+or, using an [interpolated string](xref:microsoft.quantum.qsharp.valueliterals#string-literals),
 
 ```qsharp
 fail $"Syndrome {syn} is incorrect";
@@ -44,4 +44,4 @@ fail $"Syndrome {syn} is incorrect";
 
 In addition to the given `String`,  a `fail` statement ideally collects and permits the retrieval of information about the program state. This facilitates diagnosing and remedying the source of the error, and requires support from the executing runtime and firmware, which may vary across different targets. 
 
-← [Back to Index](https://github.com/microsoft/qsharp-language/tree/main/Specifications/Language#index)
+
